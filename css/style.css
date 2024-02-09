@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(155, 178, 223);
+    overflow: hidden;
+}
+
+.picture {
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    animation: picture;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes picture {
+    0% {top: -250px;}
+    100% {top: 0px;}
+}
+
+.heading {
+    text-align: center;
+}
+
+.Pancakes-heading {
+    color: rgb(58, 52, 52)
+    font-family 'Open Sans', sans-serif;
+    font-size: 5rem;
+    position: relative;
+    animation: Pancakes-heading;
+    animation-duration: 5s;
+    animation-fill-mode: ease-in-out;
+}
+
+@keyframes Pancakes-heading {
+    0% {left: -2000px;}
+    85% {left: 50px;}
+    100% {left: 0;}
+}
+
+.ingredients {
+    color: rgb(122, 122, 122);
+    border: 1px solid black;
+    font-family: 'Poppins', sans-serif;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.ingredients-table {
+    border: 1 px solid black;
+    margin: 0 auto;
+}
+
+.instructions {
+    color: rgb(122, 122, 122);
+    border: 1px solid black;
+    width: 50%;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+.instructions ol {
+    border: 1px solid rgb(48, 46, 46);
+    margin: 0 auto;
+    width: 75%;
+}
+
+.footer {
+    color: rgb(57, 56, 56);
+    text-align: center;
+    position: relative;
+    animation: footer;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes footer {
+    0% {bottom: -250px;}
+    100% {bottom: 0px}
+}
